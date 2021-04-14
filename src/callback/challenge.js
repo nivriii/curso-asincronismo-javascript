@@ -5,6 +5,16 @@
     - Acceder a el primer personaje 
     - Obtener la ubicación donde se encuentra
     - Saber en que dimensión se encuentra
+
+    Ventaja
+    - Es simple facil de implementar
+    - Son universales, corren en cualquier navegador
+
+    Desventajas
+    - La composición suele ser tosca y generar callback hell
+    - Se vuelve dificil de leer conforme cresca en anidamiento
+    - Flujo poco intuitivo
+    - Tedioso en el manedo de errores
 */
 
 let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;

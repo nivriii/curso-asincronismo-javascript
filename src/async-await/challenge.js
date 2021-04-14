@@ -1,3 +1,20 @@
+/*
+    - Hacer una petición a nuestra API
+    - Obtener cuantos elementos tiene de personajes
+
+    - Acceder a el primer personaje 
+    - Obtener la ubicación donde se encuentra
+    - Saber en que dimensión se encuentra
+
+    Ventajas
+    - try/catch -> manejo de excepcion
+    - Son más faciles de leer y se tiene mayor entendimiento
+
+    Desventajas
+    - Debemos de esperar a que se realicen todas las peticiones
+    - Requiere un polyfill para funcionar en todos los navegadores
+*/
+
 const fetchData = require('../utils/fetchData');
 const API = 'https://rickandmortyapi.com/api/character/';
 

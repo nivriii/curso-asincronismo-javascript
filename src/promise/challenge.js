@@ -5,6 +5,15 @@
     - Acceder a el primer personaje 
     - Obtener la ubicación donde se encuentra
     - Saber en que dimensión se encuentra
+
+    Ventajas
+    - Facilmente enlazable (con then -> return -> then -> ...)
+    - Gran capacidad de trabajar con asincronismo
+
+    Desventajas
+    - No maneja excepciones se realiza con un catch
+    - Se debe tener cuidado con el retorno para siguientes llamados
+    - Requiere un polyfill para funcionar en todos los navegadores
 */
 
 const fetchData = require('../utils/fetchData');
